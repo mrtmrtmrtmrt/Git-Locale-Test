@@ -5,6 +5,7 @@
 using namespace std;
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     int i = 0 , j = 0;
     cout << "Введите первое число: ";
     cin >> i;
