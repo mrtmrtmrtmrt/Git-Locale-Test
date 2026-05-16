@@ -5,7 +5,20 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int i = 1, c = 24;
+    for (int a = 0; a < 5; a++)
+    {
+        if (i < c)
+        {
+            std::cout << "i < c" << std::endl;
+            i += 10;
+        }
+        else
+        {
+            std::cout << "i > c" << std::endl;
+            c += 5;
+        }
+    }
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
