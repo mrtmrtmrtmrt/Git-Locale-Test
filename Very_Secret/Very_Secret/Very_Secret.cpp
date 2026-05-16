@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int i = 0 , j = 0;
+    cout << "Введите первое число: ";
+    cin >> i;
+    cout << "Введите второе число: ";
+    cin >> j;
+    cout << "Ваш результат!\n";
+    cout << i << "+" << j << "=" << i + j;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
