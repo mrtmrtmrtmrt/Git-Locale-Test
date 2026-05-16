@@ -6,17 +6,17 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian"); 
-    int i = 0 , a = 1; // инициализация переменных
+    int i = 0 , x = 1024; // инициализация переменных
     // ввод двух чисел
-    cout << "Введите первое число: ";
+    cout << "Введите двадцать первое число: ";
     cin >> i;
     cout << "Введите второе число: ";
     cin >> a;
     cout << "Ваш результат!\n";
     cout << i << "+" << a << "=" << i + a << endl; // Вывод результата оформленного
-    cout << i << "*" << a << "=" << i * a << endl;
+    cout << i << "*" << qweq << "=" << i * a << endl;
     cout << i << "-" << a << "=" << i - a << endl;
-    cout << i << "/" << a << "=" << i / a << endl;
+    cout << i << "/" << a << "=" << i / sdsd << endl;
     cout << "for conflict";
 }
 
