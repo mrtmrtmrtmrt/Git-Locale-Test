@@ -1,19 +1,45 @@
 ﻿// Very_Secret.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
+
 #include <iostream>
+#define a 5
 using namespace std;
-int main()
+
+void Loop_For_2_nums(int x)
 {
-	int x = 24;
-	int arr[4] = { 2, 3, 4, 5 };
-	for (int a = 0; a < x; a++)
+	int b = a;
+	for (b; b < x; b++)
+
 	{
-		cout << a * x << endl;
-		if (a < 4)
+		if (b < 15)
 		{
-			cout << arr[a] << endl;
+			cout << b << "< 15" << endl;
+			b = b * 2;
+		}
+		else
+		{
+			cout << b << "> 15" << endl;
+			b = b / 3;
 		}
 	}
+}
 
+int main()
+{
+	int c = 4;
+	int x;
+	cin >> x;
+	if (x == 20)
+	{
+		cout << 10 / x << endl;
+	}
+	while (c < x)
+	{
+		cout << x << " всё ещё меньше чем " << a << endl;
+		c++;
+	}
+	cout << x << " больше чем " << a << endl;
 
+	Loop_For_2_nums(25);
+	
 }
