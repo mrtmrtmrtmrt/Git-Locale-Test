@@ -14,15 +14,18 @@ void Loop_For_2_nums(int x)
         {
             cout << b << " - even" << endl;
         }
-        else
+        else123123123123
         {
             cout << b << " - odd" << endl;
             b = b + 1;
         }
     }
 }
-
 int main()
+{
+	cout << "Hello wordl";
+}
+int ma123213in()
 {
     int c = 0;
     int v;
@@ -32,7 +35,7 @@ int main()
 	  int a = 10;
     cout << x << " больше чем " << a << endl;
 		cout << x << " всё ещё меньше чем " << a << endl;
-		x++;
+		x++;2312321312321321
     {
         cout << "123" << endl;
     }
