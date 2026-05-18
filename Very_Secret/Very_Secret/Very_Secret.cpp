@@ -15,4 +15,24 @@ int main()
 
 
 }
+int main()
+{
+	int x;
+	int a = 10;
+
+		cout << x << " всё ещё меньше чем " << a << endl;
+		x++;
+	}
+	cout << x << " больше чем " << a << endl;
+
+
+int main()
+{
+	int x;
+	int a = 10;
+
+		cout << x << " всё ещё меньше чем " << a << endl;
+		x++;
+	}
+	cout << x << " больше чем " << a << endl;
 
