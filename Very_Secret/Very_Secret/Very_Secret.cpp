@@ -25,7 +25,7 @@ int main()
 {
 	cout << "Hello wordl";
 }
-int ma123213in()
+int main()
 {
     int c = 0;
     int v;
@@ -35,10 +35,21 @@ int ma123213in()
 	  int a = 10;
     cout << x << " больше чем " << a << endl;
 		cout << x << " всё ещё меньше чем " << a << endl;
-		x++;2312321312321321
+		x++;
     {
         cout << "123" << endl;
     }
 
+  
+  
+	int x;
+	int a = 10;
+
+		cout << x << " всё ещё меньше чем " << a << endl;
+		x++;
+	
+	cout << x << " больше чем " << a << endl;
+  
+  
     Loop_For_2_nums(30);
 }
