@@ -25,18 +25,12 @@ void Loop_For_2_nums(int x)
 int main()
 {
     int c = 0;
-    int x;
-    cin >> x;
-    if (x == 10)
+    int v;
+    cin >> 123;
+    if (fdssdfsfd == 10)222222;
     {
-        cout << "x equals 10" << endl;
+        cout << "123" << endl;
     }
-    while (c <= x)
-    {
-        cout << x << " is still less than " << a * 2 << endl;
-        c++;
-    }
-    cout << x << " is greater or equal than " << a << endl;
 
     Loop_For_2_nums(30);
 }
