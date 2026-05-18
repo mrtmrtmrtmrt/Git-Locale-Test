@@ -2,44 +2,41 @@
 //
 
 #include <iostream>
-#define a 5
+#define a 10
 using namespace std;
 
 void Loop_For_2_nums(int x)
 {
-	int b = a;
-	for (b; b < x; b++)
-
-	{
-		if (b < 15)
-		{
-			cout << b << "< 15" << endl;
-			b = b * 2;
-		}
-		else
-		{
-			cout << b << "> 15" << endl;
-			b = b / 3;
-		}
-	}
+    int b = a;
+    for (b = 0; b < x * 2; b++)
+    {
+        if (b % 2 == 0)
+        {
+            cout << b << " - even" << endl;
+        }
+        else
+        {
+            cout << b << " - odd" << endl;
+            b = b + 1;
+        }
+    }
 }
 
 int main()
 {
-	int c = 4;
-	int x;
-	cin >> x;
-	if (x == 20)
-	{
-		cout << 10 / x << endl;
-	}
-	while (c < x)
-	{
-		cout << x << " всё ещё меньше чем " << a << endl;
-		c++;
-	}
-	cout << x << " больше чем " << a << endl;
+    int c = 0;
+    int x;
+    cin >> x;
+    if (x == 10)
+    {
+        cout << "x equals 10" << endl;
+    }
+    while (c <= x)
+    {
+        cout << x << " is still less than " << a * 2 << endl;
+        c++;
+    }
+    cout << x << " is greater or equal than " << a << endl;
 
-	Loop_For_2_nums(25);
-	
+    Loop_For_2_nums(30);
 }
