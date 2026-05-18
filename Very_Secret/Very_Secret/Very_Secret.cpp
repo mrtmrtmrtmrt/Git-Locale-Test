@@ -27,7 +27,12 @@ int main()
     int c = 0;
     int v;
     cin >> 123;
-    if (fdssdfsfd == 10)222222;
+    if (fdssdfsfd == 10);
+    int x;
+	  int a = 10;
+    cout << x << " больше чем " << a << endl;
+		cout << x << " всё ещё меньше чем " << a << endl;
+		x++;
     {
         cout << "123" << endl;
     }
