@@ -1,24 +1,19 @@
 ﻿// Very_Secret.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
 #include <iostream>
 using namespace std;
 int main()
 {
-	int x;
-	int a = 10;
-	cin >> x;
-	if (x == 0)
+	int x = 24;
+	int arr[4] = { 2, 3, 4, 5 };
+	for (int a = 0; a < x; a++)
 	{
-		cout << 10 / x << endl;
+		cout << a * x << endl;
+		if (a < 4)
+		{
+			cout << arr[a] << endl;
+		}
 	}
-	while (x < a)
-	{
-		cout << x << " всё ещё меньше чем " << a << endl;
-		x++;
-	}
-	cout << x << " больше чем " << a << endl;
 
 
 }
-
